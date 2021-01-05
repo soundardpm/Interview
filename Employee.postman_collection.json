@@ -1,0 +1,228 @@
+{
+	"info": {
+		"_postman_id": "95e47ab2-a944-4c6d-b98a-7f6eb32ebac2",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "CreateEmployee-1",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Alice\",\r\n  \"id\": \"40100001\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Manager\",\r\n  \"department\": \"IoT\",\r\n  \"skillSet\": \"Angular\",\r\n  \"dateOfBirth\": \"09-MAY-1984\",\r\n  \"dateOfJoining\": \"09-MAY-2006\",\r\n  \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateEmployee-2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Bob\",\r\n  \"id\": \"40100002\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Architectr\",\r\n  \"department\": \"Enginnering\",\r\n  \"skillSet\": \"DOT NET\",\r\n  \"dateOfBirth\": \"09-MAY-1980\",\r\n  \"dateOfJoining\": \"09-MAY-2002\",\r\n  \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateEmployee-3",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Charlie\",\r\n  \"id\": \"40100003\",\r\n  \"address\": \"dallas\",\r\n  \"role\": \"Developer\",\r\n  \"department\": \"DataMart\",\r\n  \"skillSet\": \"SQL\",\r\n  \"dateOfBirth\": \"09-MAY-1990\",\r\n  \"dateOfJoining\": \"09-MAY-2012\",\r\n  \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetEmployees",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Alice\",\r\n  \"id\": \"40100001\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Manager\",\r\n  \"department\": \"IoT\",\r\n  \"skillSet\": \"Angular\",\r\n  \"dateOfBirth\": \"09-MAY-1984\",\r\n  \"dateOfJoining\": \"09-MAY-2006\",\r\n  \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetEmployee",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Alice\",\r\n  \"id\": \"40100001\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Manager\",\r\n  \"department\": \"IoT\",\r\n  \"skillSet\": \"Angular\",\r\n  \"dateOfBirth\": \"09-MAY-1984\",\r\n  \"dateOfJoining\": \"09-MAY-2006\",\r\n  \"isActive\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee/40100001",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee",
+						"40100001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutEmployee",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Alice\",\r\n  \"id\": \"40100001\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Manager\",\r\n  \"department\": \"IoT\",\r\n  \"skillSet\": \"Angular\",\r\n  \"dateOfBirth\": \"09-MAY-1984\",\r\n  \"dateOfJoining\": \"09-MAY-2006\",\r\n  \"isActive\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee/40100001",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee",
+						"40100001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteEmployee",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\": \"Alice\",\r\n  \"id\": \"40100001\",\r\n  \"address\": \"san francisco\",\r\n  \"role\": \"Technical Manager\",\r\n  \"department\": \"IoT\",\r\n  \"skillSet\": \"Angular\",\r\n  \"dateOfBirth\": \"09-MAY-1984\",\r\n  \"dateOfJoining\": \"09-MAY-2006\",\r\n  \"isActive\": false\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://employeerestservice.azurewebsites.net/api/Employee/40100001",
+					"protocol": "https",
+					"host": [
+						"employeerestservice",
+						"azurewebsites",
+						"net"
+					],
+					"path": [
+						"api",
+						"Employee",
+						"40100001"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

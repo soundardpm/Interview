@@ -1,0 +1,25 @@
+Employee API is deployed in Azure
+
+base URL https://employeerestservice.azurewebsites.net
+
+API's
+
+POST - /api/Employee
+GET - /api/Employee 
+GET - /api/Employee/{id}
+PUT - /api/Employee/{id}
+DELETE - /api/Employee/{id}
+
+Swagger API Documentation for more informaion 
+https://employeerestservice.azurewebsites.net/swagger/index.html
+
+
+Solution contain two project 
+
+1.EmployeeWebService
+	This is .net core (3.1 ) MVC Web API 
+	it uses EF Core with InMemoryDatabase
+
+2.EmployeeWebService.Test
+	This is Unit Test project for Web API 
+	Sample Unit tests are built for Create / Get Employee (This can be extended for production)
